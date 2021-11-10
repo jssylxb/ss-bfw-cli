@@ -1,6 +1,6 @@
 {
   "name": "ss-bfw-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "web脚手架",
   "main": "cli.js",
   "scripts": {},
@@ -14,15 +14,15 @@
   "license": "ISC",
   "dependencies": {
     "download-git-repo": "^3.0.2",
-    "ora": "^4.0.4"
+    "ora": "^4.0.4",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4",
+    "yargs": "^15.4.1"
   },
   "devDependencies": {
     "@types/inquirer": "^7.3.1",
     "@types/shelljs": "^0.8.8",
-    "@types/yargs": "^15.0.5",
-    "inquirer": "^7.3.3",
-    "shelljs": "^0.8.4",
-    "yargs": "^15.4.1"
+    "@types/yargs": "^15.0.5"
   },
   "bugs": {
     "url": "https://github.com/jssylxb/ss-bfw-cli/issues"
